@@ -1,0 +1,204 @@
+body, html{
+    overflow-x: hidden;
+}
+
+#mainTitleContainer {
+    width: 100vw;
+    left: 0vw;
+    top: 0vw;
+    height: 25vw;
+    //border: solid;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 100%;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.fastFashionTitle {
+    color: #3e3e3e;
+    //border: solid;
+    //border-color: red;
+    padding: 0px;
+    //position: absolute;
+    margin: 0px;
+    height: 100%;
+    display: grid;
+    width: 100%;
+    height: 6vw;
+    font-size: 6vw;
+    align-content: center;
+    justify-content: center;
+    font-family: roboto, sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+
+#myName{
+    color: #3e3e3e;
+    padding: 0px;
+    //position: absolute;
+    margin: 0px;
+    height: 100%;
+    display: grid;
+    width: 100%;
+    height: 3vw;
+    font-size: 2.5vw;
+    align-content: center;
+    justify-content: center;
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+.topSvg{
+    width: 100vw;
+    left: 0vw;
+    height: 25vw;
+    position: absolute;
+}
+
+#problemTopSvg {
+    top: 5vw;
+}
+
+#socialTopSvg{
+    top: 55vw;
+}
+
+#social{
+    top: 80vw;
+    background-color: #3cd5fc;
+}
+
+#socialBottomSvg{
+    top: 105vw;
+}
+
+#economicTopSvg{
+    top: 105vw;
+}
+
+#economic{
+    top: 130vw;
+    background-color: #3cfc8b;
+}
+
+#economicDescription{
+    width: 75vw;
+    left: 12.5vw;
+}
+
+#environmentalDescription{
+    width: 75vw;
+    left: 12.5vw;
+}
+
+#solutionDescription{
+    width: 60vw;
+    left: 20vw;
+}
+
+#economicBottomSvg{
+    top: 155vw;
+}
+
+#environmentalTopSvg{
+    top: 155vw;
+}
+
+#environmental{
+    top: 180vw;
+    background-color: #fca23c;
+}
+
+#environmentalBottomSvg{
+    top: 205vw;
+}
+
+#solutionTopSvg{
+    top: 205vw;
+}
+
+#solution{
+    top: 230vw;
+    background-color: #ff99f6;
+}
+
+#solutionBottomSvg{
+    top: 255vw;
+}
+
+.bottomSvg {
+    width: 100vw;
+    height: 25vw;
+    position: absolute;
+    left: 0vw;
+}
+
+#problemBottomSvg{
+    top: 55vw;
+}
+
+.containerBox {
+    left: 0vw;
+    height: 25vw;
+    width: 100vw;
+    position: absolute;
+}
+
+#problem{
+    top: 30vw;
+    background-color: #fc3c3c;
+}
+
+.boxTitle{
+    color: white;
+    font-size: 4vw;
+    font-family: roboto, sans-serif;
+    width: 100vw;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 4vw;
+    position: absolute;
+    text-align: center;
+    top: -3.5vw;
+}
+
+.boxDescription{
+    color: white;
+    font-size: 2vw;
+    font-family: roboto, sans-serif;
+    width: 50vw;
+    left: 25vw;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    height: 10vw;
+    top: 2vw;
+}
+
+.pictureSVG {
+    padding: 0vw;
+    margin: 0vw;
+    height: 14vw;
+    top: 12vw;
+    width: 14vw;
+    left: 43vw;
+    //background: red;
+    position: absolute;
+}
+
+#problemSVG{
+    height: 14vw;
+    top: 12vw;
+    width: 14vw;
+    left: 43vw;
+    //background: black;
+    position: absolute;
+}
